@@ -10,6 +10,7 @@ process.on('uncaughtException', function (err) {
 });
 
 var engine = process.env.npm_package_engines_vscode;
+engine = "^1.1.21"
 if (!engine) {
     exitWithError('Missing VSCode engine declaration in package.json.');
 }

@@ -3,6 +3,11 @@ The vscode NPM module provides VS Code extension authors tools to write extensio
 
 For more information around extension authoring for VS Code, please see http://code.visualstudio.com/docs/extensions/overview
 
+# my changes
+## hard coded vscode version number 
+var engine = process.env.npm_package_engines_vscode;
+engine = "^1.27.0"
+
 # History
 
 * 1.1.0: Updated NPM dependencies
